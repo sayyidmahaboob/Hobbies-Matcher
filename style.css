@@ -53,7 +53,7 @@ body {
   width: 85%;
   height: 70px;
   border-radius: 10px;
-  background-color: rgba(175, 205, 247, 0.856);
+  background-color: rgba(187, 187, 187, 0.205);
   border: solid 2px rgba(255, 255, 255, 0);
   color: rgb(13, 13, 14);
   font-size: 1.3125rem;
@@ -148,7 +148,7 @@ body {
   font-family: "Space Mono", monospace;
   padding: 0px;
   font-size: 1rem;
-  border-width: 2px;
+  border-width: 2.5px;
   border-color: #5564f2;
   background-color: #ffffff;
   color: #282626;
@@ -168,7 +168,7 @@ body {
   font-family: "Space Mono", monospace;
   padding: 0px;
   font-size: 1rem;
-  border-width: 2px;
+  border-width: 2.5px;
   border-color: #f67df3;
   background-color: #ffffff;
   color: #282626;
@@ -191,7 +191,7 @@ input[type="text"] {
 
 img {
   border-radius: 50%;
-  border: #111 solid 2px;
+  border: #111 solid 3px;
 }
 
 .main {
