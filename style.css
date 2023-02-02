@@ -18,7 +18,7 @@ body {
 
 .container {
   width: 32rem;
-  height: 41.65rem;
+  height: 38.125rem;
   background-color: #edf6f9;
   border-radius: 0.5rem;
   text-align: center;
@@ -28,18 +28,14 @@ body {
   flex-direction: column;
 }
 
-h1 {
-  padding-top: 0.3125rem;
-}
-
 .container .girl {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   /* width: 80%; */
-  padding-bottom: 50px;
-  margin-top: -30px;
+  /* padding-bottom: 50px; */
+  /* margin-top: -30px; */
 }
 
 .container .boy {
@@ -48,28 +44,35 @@ h1 {
   justify-content: center;
   flex-direction: column;
   /* width: 80%; */
-  padding-top: 10px;
+  /* padding-top: 10px;
   padding-bottom: 50px;
-  margin-top: -10px;
+  margin-top: -10px; */
 }
 
 .results {
   width: 85%;
-  height: 37px;
+  height: 70px;
   border-radius: 10px;
-  background-color: rgba(36, 108, 216, 0);
+  background-color: rgba(175, 205, 247, 0.856);
   border: solid 2px rgba(255, 255, 255, 0);
-  color: rgb(234, 238, 241);
+  color: rgb(13, 13, 14);
   font-size: 1.3125rem;
-  margin-bottom: 5px;
-  margin-top: -50px;
+  margin-top: 10px;
+  padding-top: 10px;
+  font-size: 1.6rem;
 }
+
 /* CSS */
 .btns .btn {
   width: 110px;
   height: 45px;
   font-size: 1.25rem;
+  /* padding-top: 20px; */
   /* text-align: center; */
+}
+
+.btns {
+  padding-top: 20px;
 }
 
 .btn {
@@ -189,4 +192,12 @@ input[type="text"] {
 img {
   border-radius: 50%;
   border: #111 solid 2px;
+}
+
+.main {
+  display: flex;
+}
+
+h1 {
+  margin-bottom: 40px;
 }
