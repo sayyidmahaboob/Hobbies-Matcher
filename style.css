@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Squada+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Space+Mono&family=Squada+One&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #001219;
+}
+
+.container {
+  width: 32rem;
+  height: 41.65rem;
+  background-color: #edf6f9;
+  border-radius: 0.5rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  padding-top: 0.3125rem;
+}
+
+.container .girl {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* width: 80%; */
+  padding-bottom: 50px;
+  margin-top: -30px;
+}
+
+.container .boy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* width: 80%; */
+  padding-top: 10px;
+  padding-bottom: 50px;
+  margin-top: -10px;
+}
+
+.results {
+  width: 85%;
+  height: 37px;
+  border-radius: 10px;
+  background-color: rgba(36, 108, 216, 0);
+  border: solid 2px rgba(255, 255, 255, 0);
+  color: rgb(234, 238, 241);
+  font-size: 1.3125rem;
+  margin-bottom: 5px;
+  margin-top: -50px;
+}
+/* CSS */
+.btns .btn {
+  width: 110px;
+  height: 45px;
+  font-size: 1.25rem;
+  /* text-align: center; */
+}
+
+.btn {
+  /* padding: 0.6em 2em; */
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.btn:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.btn:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+/* inputs styling  boys*/
+
+.css-input {
+  font-family: "Space Mono", monospace;
+  padding: 0px;
+  font-size: 1rem;
+  border-width: 2px;
+  border-color: #5564f2;
+  background-color: #ffffff;
+  color: #282626;
+  border-style: solid;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(66, 66, 66, 0);
+  text-shadow: -50px 0px 0px rgba(66, 66, 66, 0);
+  text-align: center;
+}
+.css-input:focus {
+  outline: none;
+}
+
+/* input styling girls */
+
+.css-input2 {
+  font-family: "Space Mono", monospace;
+  padding: 0px;
+  font-size: 1rem;
+  border-width: 2px;
+  border-color: #f67df3;
+  background-color: #ffffff;
+  color: #282626;
+  border-style: solid;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(66, 66, 66, 0);
+  text-shadow: -50px 0px 0px rgba(66, 66, 66, 0);
+  text-align: center;
+}
+.css-input2:focus {
+  outline: none;
+}
+
+input[type="text"] {
+  width: 90%;
+  padding: 8px 10px;
+  margin: 2px 0;
+  box-sizing: border-box;
+}
+
+img {
+  border-radius: 50%;
+  border: #111 solid 2px;
+}
